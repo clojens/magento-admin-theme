@@ -1,0 +1,13 @@
+{
+    "name": "greenwellness/magento-admin-theme",
+    "description": "Artifact from jreinke which modernizes the adminhtml for Magento",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Jentzema",
+            "email": "rob@wellnessbon.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
