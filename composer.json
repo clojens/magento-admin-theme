@@ -1,6 +1,7 @@
 {
     "name": "greenwellness/magento-admin-theme",
-    "version": "1.4.3.2",
+    "type":"magento-module",
+    "version": "1.4.3.4",
     "description": "Artifact from jreinke which modernizes the adminhtml for Magento",
     "license": "MIT",
     "authors": [
@@ -9,8 +10,10 @@
             "email": "rob@wellnessbon.nl"
         }
     ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
     "minimum-stability": "dev",
-    "require": {},
     "extra": {
         "map": [
     ["src/app/locale/fr_FR/Bubble_AdminTheme.csv", "app/locale/fr_FR/Bubble_AdminTheme.csv"],
